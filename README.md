@@ -3,8 +3,6 @@
 This plugin allows you to configure your request authentication in your environment.
 
 ## Usage
-
-
 ### Basic usage
 The plugin is configured to search for either the 'auth' or the 'auth_settings' key in your environment. In this object you can define your value just like you would in the 'auth' tab. 
 
@@ -22,10 +20,11 @@ Here's an example:
   }
 ```
 
-#### Layered environments
+
+### Layered environments
 You may also combine the `auth_settings` and `auth` keys, this can be usefull if you define different environments in your folders, here's an example:
 
-*Note:* Environment keys get overwritten by Insomnia, not merged.
+*Note: Environment keys get overwritten by Insomnia, not merged. Hence the available `auth_settings` an `auth` keys.*
 
 Main environment:
 
