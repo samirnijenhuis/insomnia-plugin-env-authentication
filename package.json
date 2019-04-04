@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-env-authentication",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin that enables default authentication for an environment",
   "main": "index.js",
   "license": "MIT",
