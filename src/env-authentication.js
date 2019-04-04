@@ -15,4 +15,6 @@ module.exports = function(context) {
         const value = auth_settings[name];
         context.request.setAuthentication(name, value);
     }
+
+    console.log('Authentication parameters', context.request.getAuthentication());
 };
