@@ -10,10 +10,10 @@ module.exports = function(context) {
         return;
     }
 
-    
+
     for (const name of Object.keys(auth_settings)) {
         const value = auth_settings[name];
-        context.request.setAuthentication(name, value);
+        context.request.setAuthenticationParameter(name, value);
     }
 
     console.log('Authentication parameters', context.request.getAuthentication());
